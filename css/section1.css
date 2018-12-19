@@ -1,0 +1,92 @@
+.intro {
+    height: 543px;
+    background: rgba(254,254,254,1);
+    background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 18%, rgba(234,234,234,1) 68%, rgba(226,226,226,1) 88%, rgba(219,219,219,1) 95%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    flex-wrap: nowrap;
+
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 456px;
+    font-size: 70px;
+    padding-top: 5px;
+    color: black;
+}
+.intro_txt{
+    height: 503px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    margin-left: -90px;
+}
+
+.intro article{
+    height: 503px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.intro_img{
+    width: 400px;
+    height: 503px;
+    background-image: url(../images/black_chair.png);
+    background-repeat: no-repeat;
+    background-size: 148%;
+    background-position-x: 50%;
+    margin: 135px 0px 0px -34px;
+}
+
+
+
+.intro_txt h2 {
+    font-size: 40px;
+    padding-left: 65px;
+    position: absolute;
+    top: 133px;
+
+
+}
+.left {
+    padding-left: 74px;
+}
+.right {
+    padding-right: 85px;
+
+}
+.intro_txt p {
+    width: 490px;
+    font-size: 14px;
+    padding: 0px 0px 60px 70px;
+    text-align: center;
+    line-height: 21px;
+    position: absolute;
+    top: 210px;
+
+}
+article button {
+    border-style: none;
+    width: 264px;
+    height: 53px;
+    background-color: cyan;
+    border-radius: 5px;
+    position: absolute;
+    top: 325px;
+    right: 130px;
+}
+
+article button span {
+    font-size: 23px;
+    width: 200px;
+    position: absolute;
+    top: 14px;
+    left: 40px;}

@@ -15,7 +15,6 @@ header h1 {
 }
 h1 span {
     padding: 5px;
-    color: cyan;
 }
 
 .header_flex {
@@ -26,19 +25,26 @@ h1 span {
 }
 
 .nav_flex{
-    width: 350px;
+    width: 300px;
     display: flex;
-    justify-content: space-around;
-    margin-right: 46px;
+    justify-content: space-between;
+    margin-right: 64px;
+    letter-spacing: 1px;
 }
 
 nav ul li {
-    padding: 6px;
+    padding: 10px;
     position: relative;
 
 }
 
-nav ul li a {
+nav ul li:first-child {
+    padding-left: 0px;
+    padding-right: 19px;
+}
+
+
+.header_flex ul li a {
     color: white;
     font-size: 14px;
     padding-right: 2px;
@@ -50,23 +56,28 @@ nav ul li a {
     width: 120px;
     height: 96px;
     background-color: black;
-    margin-top: 20px;
-    left: -7px;
+    margin-top: 78px;
+    right: 335px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    /* padding-top: 5px; */
+    padding-top: 7px;
 }
 
 .dropdown li {
-    height: 32px;
-    width: 100%
+    height: 27px;
+    width: 100%;
+    padding-top: 6px;
+    padding-left: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
 }
 
-.dropdown li:first-child {
-    padding-top: 11px;
-}
+
 
 .dropdown li a {
-    padding: 5px;
+    padding: 5px 0px;
     font-size: 16px;
 }
 
