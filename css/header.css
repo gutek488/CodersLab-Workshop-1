@@ -12,6 +12,7 @@ header h1 {
     color: white;
     font-size: 14px;
     margin-left: 68px;
+    letter-spacing: 0.5px;
 }
 h1 span {
     padding: 5px;
@@ -35,6 +36,7 @@ h1 span {
 nav ul li {
     padding: 10px;
     position: relative;
+    font-weight: 700;
 
 }
 
@@ -51,16 +53,19 @@ nav ul li:first-child {
 
 }
 
+.dropdown_container{
+    width: 1000px;
+    position: absolute;
+}
+
 .dropdown {
     position: absolute;
     width: 120px;
     height: 96px;
     background-color: black;
-    margin-top: 78px;
-    right: 335px;
+    margin-top: 31px;
+    right: 61px;
     display: flex;
-    /* flex-direction: column; */
-    /* padding-top: 5px; */
     padding-top: 7px;
 }
 
@@ -81,6 +86,10 @@ nav ul li:first-child {
     font-size: 16px;
 }
 
+.dropdown li:first-child{
+    padding-left: 15px;
+}
+
 .dropdown:before {
     position: absolute;
     content: "";
@@ -91,4 +100,8 @@ nav ul li:first-child {
     border-bottom: 10px solid black;
     top: -10px;
     left: 43px;
+}
+
+header .highlight {
+    font-weight: 900;
 }

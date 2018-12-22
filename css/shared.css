@@ -18,7 +18,22 @@ body {
 }
 
 .highlight {
-    color: cyan;
+    color: #27c7ab;
 }
+
+.text_underline {
+    position: relative;
+}
+
+.text_underline:after {
+    content: "";
+    display: block;
+    width: 139px;
+    height: 7px;
+    background-color: #27c7ab;
+    position: absolute;
+    margin-top: 1px;
+}
+
 
 
