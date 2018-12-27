@@ -175,10 +175,12 @@
 
 .plan:nth-child(2n+1) ul li:nth-child(2n+1) {
     background-color: #e4e4e4;
+
 }
 
 .plan:nth-child(2n+1) ul li:nth-child(2n) {
     background-color: #f1f1f1;
+    color: #777777;
 }
 
 .plan:nth-child(2), .plan:nth-child(2):after {

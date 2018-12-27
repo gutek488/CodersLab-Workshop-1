@@ -35,5 +35,25 @@ body {
     margin-top: 1px;
 }
 
+button {
+    border-style: none;
+    width: 264px;
+    height: 53px;
+    background-color:  #27c7ab;
+    border-radius: 5px;
+    position: absolute;
+    top: 325px;
+    right: 130px;
+}
+
+button span {
+    font-size: 23px;
+    width: 200px;
+    position: absolute;
+    top: 14px;
+    left: 40px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
 
 
