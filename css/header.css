@@ -4,7 +4,7 @@ header {
     height: 40px;
     background: black;
     position: fixed;
-    z-index: 2;
+    z-index: 5;
 
 }
 
@@ -41,7 +41,7 @@ nav ul li {
 }
 
 nav ul li:first-child {
-    padding-left: 0px;
+    padding-left: 0;
     padding-right: 19px;
 }
 
@@ -54,18 +54,23 @@ nav ul li:first-child {
 }
 
 .dropdown_container{
-    width: 1000px;
+    width: 107px;
+    margin-left: 818px;
     position: absolute;
+    height: 60px;
 }
 
 .dropdown {
     position: absolute;
     width: 120px;
-    height: 96px;
+    height: 0px;
     background-color: black;
-    margin-top: 31px;
-    right: 61px;
+    margin-top: 61px;
+    right: -14px;
     display: flex;
+}
+
+.dropdown ul {
     padding-top: 7px;
 }
 
@@ -79,7 +84,11 @@ nav ul li:first-child {
 
 }
 
-
+.dropdown_container:hover .dropdown {
+    display: flex;
+    transition: height 1s;
+    height: 96px;
+}
 
 .dropdown li a {
     padding: 5px 0px;
@@ -100,6 +109,10 @@ nav ul li:first-child {
     border-bottom: 10px solid black;
     top: -10px;
     left: 43px;
+    opacity: 0;
+}
+.dropdown_container:hover .dropdown:before {
+    opacity: 1;
 }
 
 header .highlight {

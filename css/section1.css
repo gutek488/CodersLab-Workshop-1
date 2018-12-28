@@ -12,17 +12,31 @@
 }
 
 .arrow {
-    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 456px;
     font-size: 70px;
     padding-top: 5px;
+}
+
+.arrow a {
+    text-decoration: none;
     color: #27c7ab;
 }
 
 .arrow a:visited {
+    text-decoration:none;
+    color: #27c7ab;
+}
+
+.arrow a:hover {
+    text-decoration:none;
+    color: #27c7ab;
+}
+
+.arrow a:focus {
+    text-decoration:none;
     color: #27c7ab;
 }
 
